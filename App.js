@@ -10,7 +10,7 @@ export default function App() {
       </View>
 
       <View style={styles.body}>
-        <Text>Lorem ipsum dolor site amet.</Text>
+        <Text style={styles.boldText}>Lorem ipsum <Text>"test"</Text> dolor site amet.</Text>
         <Text>Lorem ipsum dolor site amet.</Text>
         <Text>Lorem ipsum dolor site amet.</Text>
       </View>
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   header: {
-    backgroundColor: 'pink',
+    backgroundColor: '#ffc0cb',
     padding: 20,
   },
   boldText: {
@@ -37,5 +37,6 @@ const styles = StyleSheet.create({
   body: {
     backgroundColor: 'yellow',
     padding: 20,
+    fontWeight: 'bold',
   }
 });
